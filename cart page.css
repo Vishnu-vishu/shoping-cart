@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+/* Basic Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /*border-right: 2px solid grey;*/
+}
+
+@media (max-width: 750px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-icons a:not(.cart-icon) {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: inline-block;
+    }
+
+    .search-container {
+        display: none;
+    }
+
+    .cart-icon {
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f5f5f5;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .head-container {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 40px;
+        order: 2;
+    }
+
+    .view_button {
+        height: 50px;
+        width: 100px;
+        box-shadow: 0px 4px 4px orangered;
+        background-color: black;
+        color: white;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    .Watch_button {
+        height: 50px;
+        width: 100px;
+        border-width: 2px;
+        background-color: transparent;
+    }
+
+    .image-heading {
+        text-align: center;
+        font-weight: bold;
+        order: 1;
+    }
+
+    .shirt-item {
+        text-align: center;
+    }
+
+    .hoodie-item {
+        text-align: center;
+    }
+
+    .fashion-test {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .image {
+        background-color: transparent;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 767px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        background-color: #f5f5f5;
+    }
+
+
+    .cart-icon {
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+    }
+
+    .profile-icon {
+        text-decoration: none;
+        color: black;
+    }
+
+    #searchInput {
+        margin: 40px;
+        margin-left: 100px;
+        padding-left: 20px;
+        height: 50px;
+        width: 300px;
+        border-color: lightblue;
+        border-radius: 10px;
+    }
+
+    .nav-brand {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .nav-links {
+        list-style-type: none;
+        display: flex;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav-links li {
+        margin: 0 10px;
+    }
+
+    .nav-icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .head-container {
+        align-self: center;
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .heading {
+        font-size: 60px;
+        font-family: "Roboto";
+        font-weight: bold;
+    }
+
+    .view_button {
+        height: 50px;
+        width: 100px;
+        box-shadow: 0px 4px 4px orangered;
+        background-color: black;
+        color: white;
+        margin-right: 30px;
+    }
+
+    .Watch_button {
+        height: 50px;
+        width: 100px;
+        border-width: 2px;
+        background-color: transparent;
+    }
+
+    .fashion-test {
+        margin-top: 40px;
+        align-self: center;
+    }
+
+    .button-container {
+        margin-top: 40px;
+    }
+
+    .image {
+        background-color: transparent;
+        margin-right: 40px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .image-heading {
+        text-align: center;
+    }
+}

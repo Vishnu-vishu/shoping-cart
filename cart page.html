@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-brand">Aeezah.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#"><b>NEW ARRIVALS</b></a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">BEAUTY</a></li>
+            <li><a href="#">SALE</a></li>
+            <li><a href="#">JOURNAL</a></li>
+        </ul>
+        <div class="nav-icons">
+            <a href="#" class="cart-icon">Cart</a>
+            <a href="#" class="profile-icon">Profile</a>
+            <button class="nav-toggle" id="navToggle">
+                <span class="nav-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <hr />
+    <div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search videos,people, and more" onkeyup="search()">
+        </div>
+        <div class="main-content">
+            <div class="head-container">
+                <hr />
+                <h1 class="heading">FABRIC THAT </h1>
+                <hr />
+                <h1 class="heading">SPEAKS</h1>
+                <hr />
+                <div class="button-container">
+                    <button class="view_button">View all</button>
+                    <button class="Watch_button">Watch now</button>
+                </div>
+            </div>
+            <div>
+                <img src="https://res.cloudinary.com/difbmfdoo/image/upload/v1708066869/My_project_11_1_dz1lph.png" />
+                <h1 class="image-heading">New Edition</h1>
+            </div>
+        </div>
+
+        <div id="searchResults">
+            <div class="card-container">
+                <div id="shirts">
+                    <h1 class="shirt-item">Shirts</h1>
+                    <img src="https://res.cloudinary.com/difbmfdoo/image/upload/v1708067152/1_rcjox1.png" class="image" />
+                </div>
+                <div id="Hoodies">
+                    <h1 class="hoodie-item">Hoodies</h1>
+                    <img src="https://res.cloudinary.com/difbmfdoo/image/upload/v1708067398/2_xtvdrd.png" class="image" />
+                </div>
+                <div class="fashion-test">
+                    <h1>Fashion is not about clothes,it is about looks</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
